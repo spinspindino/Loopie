@@ -15,7 +15,8 @@ English version below.
 
 ## 安裝
 
-1. 打開 dmg，點兩下 Loopie 的 .pkg 安裝檔。
+1. 到 https://github.com/spinspindino/Loopie/releases/latest 下載 dmg，
+   打開後點兩下 Loopie 的 .pkg 安裝檔。
 2. 第一次打開時 macOS 會說無法驗證開發者而擋下來，這是因為這個安裝檔
    沒有付費的 Apple 開發者簽章。請到
    「系統設定 → 隱私權與安全性」，往下捲，在 Loopie 那一行按「仍要打開」，
@@ -87,8 +88,9 @@ English version below.
 
 ## 原始碼與授權
 
-Loopie 以 GNU GPL v3 授權釋出，完整原始碼在 dmg 裡的 Loopie-source.zip。
-要閱讀或修改程式，請看原始碼裡的 DEVELOPING.md。
+Loopie 以 GNU GPL v3 授權釋出。原始碼在
+https://github.com/spinspindino/Loopie ，dmg 裡也附了一份 Loopie-source.zip。
+要閱讀或修改程式，請看 DEVELOPING.md。
 
 驅動部分使用 Existential Audio 的 BlackHole 0.7.1 原始碼（GPL v3），
 未經修改，只在編譯時更改了名稱設定。
@@ -116,7 +118,9 @@ click. The signal stays digital and never touches speakers or a mic.
 
 ## Install
 
-1. Open the dmg and double-click the Loopie .pkg installer.
+1. Download the dmg from
+   https://github.com/spinspindino/Loopie/releases/latest ,
+   open it and double-click the Loopie .pkg installer.
 2. The first time, macOS will block it because the installer has no paid
    Apple developer signature. Go to
    System Settings > Privacy & Security, scroll down, click "Open Anyway"
@@ -186,9 +190,10 @@ Open Terminal and paste these two lines (asks for an admin password):
 
 ## Source and license
 
-Loopie is released under the GNU GPL v3. Full source code is in
-Loopie-source.zip inside the dmg.
-To read or change the code, see DEVELOPING.md in the source.
+Loopie is released under the GNU GPL v3. The source is at
+https://github.com/spinspindino/Loopie , and a copy is included in the
+dmg as Loopie-source.zip.
+To read or change the code, see DEVELOPING.md.
 
 The driver is built from the unmodified source of BlackHole 0.7.1 by
 Existential Audio (GPL v3), with only the names changed at build time.
