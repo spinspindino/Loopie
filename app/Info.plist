@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>Loopie</string>
+	<key>CFBundleIconFile</key>
+	<string>Loopie</string>
+	<key>CFBundleIdentifier</key>
+	<string>audio.loopie.app</string>
+	<key>CFBundleName</key>
+	<string>Loopie</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Loopie reads audio from the Loopie virtual device to show the meter and record. It never uses your microphone. ／ Loopie 需要讀取 Loopie 虛擬裝置的聲音，才能顯示音量表和錄音，不會使用你的麥克風。</string>
+</dict>
+</plist>

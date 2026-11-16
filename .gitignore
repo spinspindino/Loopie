@@ -1,0 +1,6 @@
+# 編譯與打包產物
+build/
+dist/
+
+# macOS
+.DS_Store
